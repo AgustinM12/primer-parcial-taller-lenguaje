@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.cuerpo {
+    background-color: blueviolet;
+    width: 80%;
+    height: auto;
+}
+
+.navegacion {
+    background-color: rgb(161, 79, 237);
+    width: 20%;
+    height: auto;
+}
+
+.piepagina {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
