@@ -6,28 +6,72 @@
 }
 
 .container {
-    height: auto;
-    width: 100%;
-    background-color: brown;
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    height: 100vh;
+    width: 100%;
 }
 
 .cuerpo {
-    background-color: blueviolet;
-    width: 80%;
-    height: auto;
+    background-image: url(Polygon\ Luminary.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(11, 189, 189);
+    background-color: rgb(75, 9, 138);
+    width: 85%;
+    height: 95%;
+    padding: 30px;
 }
 
 .navegacion {
-    background-color: rgb(161, 79, 237);
-    width: 20%;
-    height: auto;
+    padding-top: 100px;
+    color: rgb(161, 79, 237);
+    background-color: rgb(108, 10, 199);
+    width: 15%;
+    height: 95%;
+    text-align: center;
 }
 
 .piepagina {
-    background-color: blue;
-    height: 50px;
+    color: rgb(11, 189, 189);
+    background-color: rgb(149, 10, 218);
+    height: 5%;
     width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vw;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 3vw;
+}
+
+h4 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 2vw;
+}
+
+.piepagina p {
+    font-size: 1vw;
+    padding-top: 12px;
+}
+
+.navegacion a {
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(161, 79, 237);
+    text-decoration: none;
+}
+
+.cuerpo a {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(176, 48, 202);
+    text-decoration: underline;
 }
