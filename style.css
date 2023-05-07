@@ -111,8 +111,6 @@ nav {
     padding-bottom: 15px;
     text-align: center;
     font-family: 'Bruno Ace SC', cursive;
-
-
 }
 
 .custom-section {
@@ -128,4 +126,41 @@ nav {
 
 .texto-carta {
     color: red;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* ABOUT ME */
+.titulo {
+    color: rgb(11, 189, 189);
+    text-decoration: underline;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.skills {
+    color: rgb(11, 189, 189);
+    padding-left: 20px;
+
+}
+
+.contacto {
+    display: flex;
+    justify-content: end;
+    color: rgb(11, 189, 189);
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+.titulo2 {
+    color: rgb(11, 189, 189);
+    text-decoration: underline;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    text-align: right;
+    font-family: 'Bruno Ace SC', cursive;
 }
