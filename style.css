@@ -5,7 +5,8 @@
     font-family: 'Century Gothic';
 }
 
-.container {
+/* inicio */
+.padre {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
@@ -15,7 +16,7 @@
 .cuerpo {
     background-image: url(Polygon\ Luminary.svg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     color: rgb(11, 189, 189);
     background-color: rgb(75, 9, 138);
@@ -74,4 +75,57 @@ p {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(176, 48, 202);
     text-decoration: underline;
+}
+
+/* WORKS */
+footer {
+    background-color: rgb(149, 10, 218);
+    color: rgb(11, 189, 189);
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-image: url(Polygon\ Luminary.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    height: 100%;
+}
+
+nav {
+    background: rgb(161, 79, 237);
+}
+
+.titulo {
+    padding: 20px;
+}
+
+.titulo h1 {
+    color: rgb(11, 189, 189);
+    text-decoration: underline;
+    border: solid white 2px;
+    border-radius: 5px;
+    border-style: groove;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+
+
+}
+
+.custom-section {
+    padding-top: 20px;
+}
+
+.columna {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.texto-carta {
+    color: red;
 }
