@@ -21,7 +21,9 @@ nav {
 
 .titulo {
     padding: 20px;
+    text-shadow: 5px 0px 5px red;
 }
+
 
 .titulo h1 {
     color: rgb(11, 189, 189);
@@ -32,17 +34,32 @@ nav {
     padding-bottom: 15px;
     text-align: center;
     font-family: 'Bruno Ace SC', cursive;
-
-
 }
 
 .custom-section {
     padding-top: 20px;
+    text-align: center;
 }
 
-.columna {
+a:hover {
+    color: rgb(236, 19, 175) !important
+}
+
+#logo:hover {
+    color: white !important
+}
+
+#logo {
+    text-shadow: 5px 0px 5px red;
+}
+
+.column {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+.fila {
+    padding-left: 30px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
 }
