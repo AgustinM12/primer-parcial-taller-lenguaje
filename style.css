@@ -1,19 +1,60 @@
-body{
+body {
     background-image: url(img/Polygon\ Luminary.svg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    box-sizing: border-box;
+    height: 100%;
 }
 
-.titulo{
+nav {
+    background: linear-gradient(120deg, rgb(11, 189, 189), rgb(161, 79, 237), red);
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+section {
+    padding-top: 50px;
+}
+
+footer {
+    background: linear-gradient(120deg, red, rgb(161, 79, 237), rgb(11, 189, 189));
+    color: rgb(11, 189, 189);
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+h4 {
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 50px;
+}
+
+h1 {
+    color: rgb(11, 189, 189);
+    text-decoration: underline;
+    border: solid white 4px;
+    border-radius: 10px;
+    border-style: groove;
+    padding: 15px;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 0px 5px red;
+}
+
+.titulo {
     background-color: black;
     border: 5px;
     border-radius: 5px;
 }
 
-section{
-    padding-top: 50px;
+a:hover {
+    color: rgb(236, 19, 175) !important;
 }
-p{
-    padding-top: 30px;
+
+#logo:hover {
+    color: white !important;
+}
+
+#logo {
+    text-shadow: 2px 2px 2px red;
+    font-size: 30px;
 }
