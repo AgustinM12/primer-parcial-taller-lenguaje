@@ -44,6 +44,7 @@
 h1 {
     font-size: 5vw;
     padding-bottom: 50px;
+    text-shadow: 5px 0px 5px red;
 }
 
 h3 {
@@ -63,6 +64,10 @@ p {
     padding-top: 12px;
 }
 
+a:hover {
+    color: rgb(236, 19, 175) !important
+}
+
 .navegacion a {
     font-size: 2vw;
     font-family: 'Times New Roman', Times, serif;
@@ -74,4 +79,6 @@ p {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(176, 48, 202);
     text-decoration: underline;
+    text-shadow: 1px 1px 1px white;
+
 }
