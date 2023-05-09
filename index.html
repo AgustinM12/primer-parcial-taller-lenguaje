@@ -1,40 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AgustinM12 Portfolio personal</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="img/logo.png" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="logo.png" />
-    <title>Portfolio Agustin Mazza</title>
   </head>
 
-  <body class="fondo">
+  <body class="vh-100">
+    <script>
+      src =
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js";
+      integrity =
+        "sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe";
+      crossorigin = "anonymous";
+    </script>
+
     <header>
-      <nav class="navegacion">
-        <a href="aboutme.html">Sobre mi</a>
-        <br /><br />
-        <a href="works.html">Portfolio</a>
+      <nav class="navbar navbar-expand-md navbar-light bg-info">
+        <div class="container-fluid">
+          <img src="img/logo.png" alt="logo" width="30" height="30" />
+          <a
+            class="navbar-brand"
+            href="https://github.com/AgustinM12"
+            target="_blank"
+            >AgustinM12</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >Sobre mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="works.html">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-
-    <main>
-      <article>
-        <section class="cuerpo">
-          <h1>HOLA, SOY AGUSTIN MAZZA.</h1>
-          <h3>Estudiante de Desarrollo de Software Multiplataforma.</h3>
-          <h4>¡Bienvenidos a mi portfolio web!</h4>
-          <p>
-            Si quieres ponerte en contacto conmigo, escribime a:
-            <a href="https://mail.google.com/mail/u/0/#all" target="_blank"
-              >agustinmazza12345@gmail.com</a
-            >
+    <main class="fondo">
+      <article class="px-50 px-50">
+        <section>
+          <div class="titulo opacity-75">
+            <h1 class="text-center text-light">
+              HELLO! MY NAME IS WALTER AGUSTIN MAZZA...
+            </h1>
+          </div>
+          <p class="text-center text-light col-lg-6 mx-auto">
+            Soy un estudiante de Desarrollo de Software Multiplataforma en el
+            Instituto Politecnico FSA.<br />
+            Tengo 20 años, Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Dicta similique quaerat blanditiis laboriosam distinctio modi
+            enim quis accusantium explicabo minima inventore placeat,
+            praesentium consequuntur nulla? Accusamus, soluta eaque? Veritatis,
+            ducimus?
           </p>
-          <footer class="piepagina">
-            <p>©CopyRight: Walter Agustin Mazza, 2023.</p>
-          </footer>
         </section>
       </article>
     </main>
+    <footer class="bg-info fixed-bottom">
+      <p class="text-center">©Copyright: Walter Agustin Mazza, 2023.</p>
+    </footer>
   </body>
 </html>
