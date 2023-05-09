@@ -7,7 +7,7 @@ footer {
 }
 
 body {
-    background-image: url(Polygon\ Luminary.svg);
+    background-image: url(img/Polygon\ Luminary.svg);
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;
@@ -16,12 +16,11 @@ body {
 }
 
 nav {
-    background: rgb(161, 79, 237);
+    background: linear-gradient(120deg,rgb(11, 189, 189),  rgb(161, 79, 237), red );
 }
 
 .titulo {
     padding: 20px;
-    text-shadow: 5px 0px 5px red;
 }
 
 
@@ -34,6 +33,7 @@ nav {
     padding-bottom: 15px;
     text-align: center;
     font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 0px 5px red;
 }
 
 .custom-section {
@@ -50,7 +50,7 @@ a:hover {
 }
 
 #logo {
-    text-shadow: 5px 0px 5px red;
+    text-shadow: 2px 2px 2px red;
 }
 
 .column {
@@ -59,7 +59,20 @@ a:hover {
 }
 
 .fila {
-    padding-left: 30px;
     display: flex;
     justify-content: center;
+}
+.card{
+    height: 400px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-title{
+text-shadow: 2px 2px 2px black ;
 }
