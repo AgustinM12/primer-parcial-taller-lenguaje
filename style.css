@@ -5,6 +5,10 @@
     font-family: 'Century Gothic';
 }
 
+body{
+    height: min-content;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +19,6 @@
 .cuerpo {
     background-image: url(Polygon\ Luminary.svg);
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
     color: rgb(11, 189, 189);
     background-color: rgb(75, 9, 138);
