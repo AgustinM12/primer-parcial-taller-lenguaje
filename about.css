@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+}
+
+body {
+    background-image: url(img/Polygon\ Luminary.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    height: 100%;
+}
+
+nav {
+    background: linear-gradient(120deg, rgb(11, 189, 189), rgb(161, 79, 237), red);
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(120deg, red, rgb(161, 79, 237), rgb(11, 189, 189));
+    color: rgb(11, 189, 189);
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 1vw;
+}
+
+.titulo {
+    color: rgb(11, 189, 189);
+    text-decoration: underline;
+    text-shadow: 4px solid white;
+    border: solid white 2px;
+    border-radius: 10px;
+    text-align: left;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 0px 5px red;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.titulo2 {
+    color: rgb(11, 189, 189);
+    text-decoration: underline;
+    text-shadow: 4px solid white;
+    border: solid white 2px;
+    border-radius: 10px;
+    text-align: right;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 0px 5px red;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+.contentL {
+    color: rgb(11, 189, 189);
+    padding-left: 20px;
+
+}
+
+.contentR {
+    color: rgb(11, 189, 189);
+    padding-right: 20px;
+    text-align: right;
+}
+
+p {
+    font-size: 2.5vw;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+li a {
+    color: rgb(11, 189, 189);
+    font-size: 2.5vw;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+
+a {
+    font-size: 2.5vw;
+    font-family: 'Teko', sans-serif;
+}
+
+a:hover {
+    color: rgb(236, 19, 175) !important;
+}
+
+#logo {
+    text-shadow: 2px 2px 2px red;
+    font-size: 30px;
+}
+
+#logo:hover {
+    color: white !important;
+}
