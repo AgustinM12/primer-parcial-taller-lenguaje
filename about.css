@@ -21,17 +21,22 @@ nav {
     color: white;
 }
 
+
+/* estilo del footer */
 footer {
     background: linear-gradient(120deg, red, rgb(161, 79, 237), rgb(11, 189, 189));
     color: rgb(11, 189, 189);
     font-family: 'Teko', sans-serif;
     text-shadow: 2px 2px 2px black;
-    text-align: center;
     padding-bottom: 10px;
     padding-top: 30px;
-    font-size: 1vw;
 }
 
+.text-center {
+    font-family: 'Teko', sans-serif;
+}
+
+/* titulos de las secciones */
 .titulo {
     color: rgb(11, 189, 189);
     text-decoration: underline;
@@ -59,9 +64,12 @@ footer {
     padding-right: 20px;
 }
 
+/* contenido de las secciones */
 .contentL {
     color: rgb(11, 189, 189);
     padding-left: 20px;
+    text-shadow: 2px 2px 2px black;
+
 
 }
 
@@ -71,7 +79,7 @@ footer {
     text-align: right;
 }
 
-p {
+ul p {
     font-size: 2.5vw;
     font-family: 'Teko', sans-serif;
     text-shadow: 2px 2px 2px black;
@@ -81,7 +89,6 @@ li a {
     color: rgb(11, 189, 189);
     font-size: 2.5vw;
     font-family: 'Teko', sans-serif;
-    text-shadow: 2px 2px 2px black;
     text-decoration: none;
 }
 

@@ -1,10 +1,13 @@
 /* WORKS */
 footer {
-    background-color: rgb(149, 10, 218);
+    background: linear-gradient(120deg, red, rgb(161, 79, 237), rgb(11, 189, 189));
+    font-family: 'Teko', sans-serif;
     color: rgb(11, 189, 189);
+    text-shadow: 2px 2px 2px black;
     padding: 10px;
     text-align: center;
 }
+
 
 body {
     background-image: url(img/Polygon\ Luminary.svg);
@@ -16,13 +19,13 @@ body {
 }
 
 nav {
-    background: linear-gradient(120deg,rgb(11, 189, 189),  rgb(161, 79, 237), red );
+    background: linear-gradient(120deg, rgb(11, 189, 189), rgb(161, 79, 237), red);
+    font-size: 30px;
 }
 
 .titulo {
     padding: 20px;
 }
-
 
 .titulo h1 {
     color: rgb(11, 189, 189);
@@ -36,9 +39,10 @@ nav {
     text-shadow: 5px 0px 5px red;
 }
 
-.custom-section {
-    padding-top: 20px;
-    text-align: center;
+/* estilo de los links */
+
+a {
+    font-family: 'Teko', sans-serif;
 }
 
 a:hover {
@@ -51,6 +55,14 @@ a:hover {
 
 #logo {
     text-shadow: 2px 2px 2px red;
+    font-size: 30px;
+}
+
+/* posicion de las tarjetas */
+
+.container {
+    padding-top: 20px;
+    text-align: center;
 }
 
 .column {
@@ -62,17 +74,32 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-.card{
+
+
+
+/* estilo de las tarjetas */
+.card {
     height: 400px;
+    background: linear-gradient(100deg, rgb(11, 189, 189), blue) !important;
 }
 
-.card-body{
+.card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.card-title{
-text-shadow: 2px 2px 2px black ;
+.card-body a:hover {
+    color: rgb(11, 189, 189) !important;
+}
+
+.card-title {
+    text-shadow: 2px 2px 2px black;
+}
+
+.card-text {
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
 }
