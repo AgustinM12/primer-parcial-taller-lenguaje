@@ -1,0 +1,78 @@
+/* WORKS */
+footer {
+    background-color: rgb(149, 10, 218);
+    color: rgb(11, 189, 189);
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-image: url(img/Polygon\ Luminary.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    height: 100%;
+}
+
+nav {
+    background: linear-gradient(120deg,rgb(11, 189, 189),  rgb(161, 79, 237), red );
+}
+
+.titulo {
+    padding: 20px;
+}
+
+
+.titulo h1 {
+    color: rgb(11, 189, 189);
+    text-decoration: underline;
+    border: solid white 2px;
+    border-radius: 5px;
+    border-style: groove;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 0px 5px red;
+}
+
+.custom-section {
+    padding-top: 20px;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(236, 19, 175) !important
+}
+
+#logo:hover {
+    color: white !important
+}
+
+#logo {
+    text-shadow: 2px 2px 2px red;
+}
+
+.column {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 400px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-title{
+text-shadow: 2px 2px 2px black ;
+}
